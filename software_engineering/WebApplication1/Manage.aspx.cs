@@ -151,7 +151,7 @@ namespace WebApplication1
             }
             else if (TextBox1.Text == "" || TextBox2.Text == "" || TextBox3.Text == "" || TextBox4.Text == "" || TextBox5.Text == "" || TextBox6.Text == "" || TextBox7.Text == "" || TextBox8.Text == "" || TextBox9.Text == "")
             {
-                Label_st.Text = "Add->ERROR,有内容为空！";
+                Label_st.Text = "Add->ERROR,    有内容为空！";
             }
 
         }
