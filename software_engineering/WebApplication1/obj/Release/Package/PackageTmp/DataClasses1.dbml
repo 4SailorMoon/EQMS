@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Engineer" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.43.153;Initial Catalog=Engineer;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="EngineerConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Eng_info" Member="Eng_info">
+    <Type Name="Eng_info">
+      <Column Name="name" Type="System.String" DbType="NChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="no" Type="System.String" DbType="NChar(4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="sex" Type="System.String" DbType="NChar(2)" CanBeNull="true" />
+      <Column Name="address" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="telephone" Type="System.String" DbType="NChar(13)" CanBeNull="true" />
+      <Column Name="working_age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="basic_salary" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="birthday" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="education" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Eng_info" Member="Eng_info1">
+    <Type Name="Eng_info1">
+      <Column Name="name" Type="System.String" DbType="NChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="no" Type="System.String" DbType="NChar(4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="sex" Type="System.String" DbType="NChar(2)" CanBeNull="true" />
+      <Column Name="address" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="telephone" Type="System.String" DbType="NChar(13)" CanBeNull="true" />
+      <Column Name="working_age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="basic_salary" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="birthday" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="education" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Log_info" Member="Log_info">
+    <Type Name="Log_info">
+      <Column Name="id" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="operate" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="change" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.t_user" Member="t_user">
+    <Type Name="t_user">
+      <Column Name="account" Type="System.String" DbType="NChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="category" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
