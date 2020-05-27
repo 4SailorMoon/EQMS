@@ -25,13 +25,13 @@ namespace WebApplication1
                          {
                              姓名 = item.name,
                              编号 = item.no,
-                             学历 = item.education,
+                             性别 = item.sex,
+                             地址 = item.address,
+                             电话 = item.telephone,
                              工龄 = item.working_age,
                              薪水 = item.basic_salary,
-                             电话 = item.telephone,
-                             地址 = item.address,
-                             性别 = item.sex,
                              生日 = item.birthday,
+                             学历 = item.education,
                          };
             GridView1.DataSource = result;
 
